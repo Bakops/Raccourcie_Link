@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RACCOURSSICEUR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="present">
+      <h1>APPLICATIONS RACCOURSSICEUR DE LIENS</h1>
+      <p>
+        Transformez vos longues URL en liens courts et élégants avec mon
+        raccourcisseur de liens! Mettez un liens valide sinon sa ne marchera
+        pas. <strong>@Bakops</strong>
+      </p>
+    </div>
+
+    <section>
+      <div class="error">
+        <p class="element_error"></p>
+      </div>
+      <div class="link_box">
+        <input type="text" placeholder="Liens à raccourcir" class="long_link" />
+      </div>
+      <div class="buttons">
+        <button id="btn-first" onclick="shortLink()">
+          Raccourcir le liens
+        </button>
+      </div>
+
+      <div class="result">example.com</div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
